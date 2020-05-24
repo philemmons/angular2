@@ -38,5 +38,6 @@
 
 - Generally TypeScript takes time to compile the code.
     - Typescript ==> transpile ==> Javascript
+    - TSC: TypeScript Compiler
 
 >source: https://www.geeksforgeeks.org/difference-between-typescript-and-javascript/
