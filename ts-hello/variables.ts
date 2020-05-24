@@ -20,7 +20,7 @@ function doSomething() {
         console.log(i);
     }
 
-    console.log( 'Finally: ' + i );
+    console.log( 'Finally: ' + ' i = 5' );
     //error left to demo tsc javascript result
 }
 

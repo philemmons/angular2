@@ -21,8 +21,6 @@ drawPoint({
     // although it is a bit verbose
 
     //****** A BETTER solution is an interface!
-    //
-
     x: 1,
     y: 2
 })
