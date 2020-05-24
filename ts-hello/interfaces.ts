@@ -1,12 +1,12 @@
 
-interface Point{ 
+interface Point1{ 
     // NOTE: the naming convention, PASCAL naming convention
     // capital 'P'
     x: number,
     y: number
 }
 
-let drawPoint = (point: Point ) => {
+let drawPoint = (point: Point1 ) => {
     //...
 }
 
