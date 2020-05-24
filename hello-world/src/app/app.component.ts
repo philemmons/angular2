@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+// hot module replacement( HMR ) - auto reload browser
 export class AppComponent {
-  title = 'hello-world';
+  title = 'Angular';
 }
