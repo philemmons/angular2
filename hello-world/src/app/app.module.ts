@@ -1,3 +1,4 @@
+import { CoursesServices } from './courses.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -21,7 +22,17 @@ import { CourseComponent } from './course/course.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  
+  // ********* providers array is where all dependency are registered
+  providers: [
+    // common error:
+        //NullInjectorError: No provider for CoursesServices!"
+    
+        // ******* Singleton Pattern 
+    // angular will instanticate a single component
+    // to be used on multiple components
+    CoursesServices
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
