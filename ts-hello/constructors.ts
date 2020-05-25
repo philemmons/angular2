@@ -3,7 +3,7 @@
 // define a class 'anotherPoint'
 // below we init an object
 
-class anotherPoint{ 
+class AnotherPoint{ 
     x: number;
     y: number;
 
@@ -22,5 +22,5 @@ class anotherPoint{
 }
 
 // this nextPoint is an instance of the 'anotherPoint' class!
-let nextPoint = new anotherPoint(1,2);
+let nextPoint = new AnotherPoint(1,2);
 nextPoint.draw();

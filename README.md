@@ -9,7 +9,21 @@
 - Includes alot of re-usable code. 
 - Makes our application more testable.
 
-#### What is TypeScript? 
+#### Angular Fundamentals
+
+- Modules: A container to a related group of components.
+    - Break the module into small, more maintainable modules.
+- Components: Data, HTML Template, and Logic for a view.
+    - app(root) component
+    - **Create** a component.
+    - **Register** it in a module.
+    - Add an element in an **HTML markup**.
+- Templates 
+- Directives and Data Binding
+- Services and Dependency Injection
+
+#### What is TypeScript?
+
 - By definition, “TypeScript is JavaScript for application-scale development.”
 - TypeScript is a strongly typed, object oriented, compiled language.
 - It was designed by Anders Hejlsberg (designer of C#) at Microsoft. 
@@ -25,7 +39,7 @@
 - TypeScript has Interface but JavaScript does not have Interface.
 - TypeScript support optional parameter function but JavaScript does not support optional parameter function.
 
-#### Advantages of using TypeScript over JavaScript
+#### Advantages of using TypeScript over JavaScript.
 
 - TypeScript always point out the compilation errors at the time of development only. 
     - Because of this at the run-time the chance of getting errors are very less whereas JavaScript is an interpreted language.
@@ -34,7 +48,7 @@
 - TypeScript is nothing but JavaScript and some additional features i.e. ES6 features. 
     - It may not be supported in your target browser but TypeScript compiler can compile the .ts files into ES3,ES4 and ES5 also.
 
-#### Disadvantages of using TypeScript over JavaScript
+#### Disadvantages of using TypeScript over JavaScript.
 
 - Generally TypeScript takes time to compile the code.
     - Typescript ==> transpile ==> Javascript
